@@ -95,7 +95,7 @@ int __init hook_init(void){
 void __exit hook_exit(void){
  
     /* message */
-    write_console("Jianchen recovered interrupt_0 \r\n");
+    write_console("Hrishikesh recovered interrupt_0 \r\n");
     sprintf(msg, "Interrupt_0 handled during hijacking = %d \r\n", counter);
     write_console(msg);
      
